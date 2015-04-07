@@ -6,6 +6,7 @@
 	 >
 
     <LinearLayout 
+        android:id="@+id/ll_serach"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -37,4 +38,13 @@
         />
 
     </LinearLayout>
+    
+    	<Button 
+        android:layout_below="@id/ll_serach"
+	    android:id="@+id/bt_sms"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="获取短信验证码"
+	    android:textSize="15dp"
+	    />
 </RelativeLayout>
